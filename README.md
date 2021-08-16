@@ -8,7 +8,7 @@ Materials that I used to make the Light saber:
 - Push button
 - 330 Ohm resistor
 - Resistor (1KOhm recommended)
-- 1000 uF 6.3v capacitor (not necessary)
+- 1000 uF capacitor (not necessary)
 - 4 AA 1.5v batteries
 
 ## Code
