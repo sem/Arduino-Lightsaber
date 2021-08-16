@@ -42,3 +42,7 @@ bool blue = true;
 - ```NUM_LEDS``` can be used to change the length of your Light saber
 - ```DELAY``` can be used to change the speed between each transition
 - You can disable any color by simply changing the boolean to false.
+
+## How to use
+- With a single press on the button the LED will go on/off
+- With a double press on the button you can change the color of the LED
