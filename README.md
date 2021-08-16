@@ -22,7 +22,7 @@ Before you upload the code to your Arduino you should have the following librari
 - [OneButton](https://www.arduino.cc/reference/en/libraries/onebutton/)
 
 At the beginning of the code you will find a section to customize your Light saber:
-```arduino
+```
 // ------ Settings ------
 #define LED_PIN     8
 #define BUTTON_PIN  5
@@ -38,4 +38,7 @@ bool yellow = true;
 bool blue = true;
 // --------------------
 ```
-
+You can change pin numbers if you feel like, but there is no need to if you have followed the circuit diagram.
+- ```NUM_LEDS``` can be used to change the length of your Light saber
+- ```DELAY``` can be used to change the speed between each transition
+You can disable any color by simply changing the boolean to false.
