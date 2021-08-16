@@ -46,3 +46,5 @@ bool blue = true;
 ## How to use
 - With a single press on the button the LED will go on/off
 - With a double press on the button you can change the color of the LED
+
+May the force be with you!
