@@ -20,3 +20,22 @@ Materials that I used to make the Light saber:
 Before you upload the code to your Arduino you should have the following libraries installed:
 - [FastLED](https://www.arduino.cc/reference/en/libraries/fastled/)
 - [OneButton](https://www.arduino.cc/reference/en/libraries/onebutton/)
+
+At the beginning of the code you will find a section to customize your Light saber:
+```arduino
+// ------ Settings ------
+#define LED_PIN     8
+#define BUTTON_PIN  5
+#define NUM_LEDS    50
+#define DELAY       8
+
+bool orange = true;
+bool green = true;
+bool red = true;
+bool white = false;
+bool purple = true;
+bool yellow = true;
+bool blue = true;
+// --------------------
+```
+
