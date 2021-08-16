@@ -39,6 +39,6 @@ bool blue = true;
 // --------------------
 ```
 You can change pin numbers if you feel like, but there is no need to if you have followed the circuit diagram.
-- ```NUM_LEDS``` can be used to change the length of your Light saber
-- ```DELAY``` can be used to change the speed between each transition
+```NUM_LEDS``` can be used to change the length of your Light saber
+```DELAY``` can be used to change the speed between each transition
 You can disable any color by simply changing the boolean to false.
