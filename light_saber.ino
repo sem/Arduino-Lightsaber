@@ -6,7 +6,7 @@
 #define BUTTON_PIN    5
 #define NUM_LEDS      50
 #define DELAY         8
-#define flickerDelay  3
+#define flickerDelay  5
 
 bool orange = true;
 bool green = true;
@@ -281,14 +281,13 @@ void flicker() {
   if (flickering == true) {
     for (int i = 0; i <= NUM_LEDS; i++) {
       if (toggleBrightness == false) {
-        flickerBrightness = flickerBrightness - 1;
+        flickerBrightness = flickerBrightness - flickerDelay;
       }
       else if (toggleBrightness == true) {
-        flickerBrightness = flickerBrightness + 1;
+        flickerBrightness = flickerBrightness + flickerDelay;
       }
       if (flickerBrightness <= 0) {
         toggleBrightness = true;
-        delay(flickerDelay);
       }
       if (flickerBrightness >= 255) {
         toggleBrightness = false;
