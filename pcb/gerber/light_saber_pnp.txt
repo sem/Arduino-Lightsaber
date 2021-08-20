@@ -1,0 +1,24 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=light_saber
+*Date=22:42:05
+*CreatedBy=Fritzing 0.9.8b.2021-08-03.CD-92-0-b3d4fefa
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;83.2104;-18.943;0;Bottom;Via1
+2;;;18.8635;-6.51834;180;Bottom;LED 2
+3;;;129.98;-13.0401;90;Bottom;2.1mm Barrel female
+4;330;THT;47.5693;-13.9926;90;Bottom;330 Ohm resistor
+5;;[THT];62.7447;-14.0203;0;Bottom;Button
+6;;;71.628;-11.0182;0;Bottom;Via2
+7;;;18.8635;-17.9483;-180;Bottom;LED 1
+8;1k;0603 [SMD];73.4646;-13.8901;90;Top;1KOhm resistor
+9;;;101.413;-14.3101;-90;Bottom;Arduino Nano
