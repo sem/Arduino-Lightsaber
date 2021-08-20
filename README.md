@@ -44,6 +44,9 @@ bool flickering = true;
 - You can disable any color by changing the boolean to false
 - ```flickering``` can be used to enable or disable flickering
 
+# PCB design
+<img src="https://user-images.githubusercontent.com/78478073/130289612-10758225-3ba3-449e-bd3f-1ce3e981c80f.png" width="650">
+
 ## How to use
 - With a single press on the button the LED will go on/off
 - With a double press on the button you can change the color of the LED
