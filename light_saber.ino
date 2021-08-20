@@ -5,8 +5,7 @@
 #define LED_PIN       8
 #define BUTTON_PIN    5
 #define NUM_LEDS      50
-#define DELAY         8
-#define flickerDelay  5
+#define DELAY         1
 
 bool orange = true;
 bool green = true;
@@ -14,7 +13,7 @@ bool red = true;
 bool white = true;
 bool purple = true;
 bool yellow = true;
-bool blue = false;
+bool blue = true;
 
 bool flickering = true;
 // --------------------
@@ -144,7 +143,6 @@ void doubleclick() {
         }
       }
       else {
-        flicker();
         g++;
         done = 1;
       }
@@ -163,7 +161,6 @@ void doubleclick() {
         }
       }
       else {
-        flicker();
         g++;
         done = 1;
       }
@@ -182,7 +179,6 @@ void doubleclick() {
         }
       }
       else {
-        flicker();
         g++;
         done = 1;
       }
@@ -201,7 +197,6 @@ void doubleclick() {
         }
       }
       else {
-        flicker();
         g++;
         done = 1;
       }
@@ -220,7 +215,6 @@ void doubleclick() {
         }
       }
       else {
-        flicker();
         g++;
         done = 1;
       }
@@ -239,7 +233,6 @@ void doubleclick() {
         }
       }
       else {
-        flicker();
         g++;
         done = 1;
       }
@@ -259,13 +252,11 @@ void doubleclick() {
         g = -1;
       }
       else {
-        flicker();
         g = -1;
         done = 0;
       }
     }
     if (done == 0) {
-      flicker();
       g++;
     }
   }
@@ -281,10 +272,10 @@ void flicker() {
   if (flickering == true) {
     for (int i = 0; i <= NUM_LEDS; i++) {
       if (toggleBrightness == false) {
-        flickerBrightness = flickerBrightness - flickerDelay;
+        flickerBrightness = flickerBrightness - 1;
       }
       else if (toggleBrightness == true) {
-        flickerBrightness = flickerBrightness + flickerDelay;
+        flickerBrightness = flickerBrightness + 1;
       }
       if (flickerBrightness <= 0) {
         toggleBrightness = true;
