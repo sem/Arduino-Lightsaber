@@ -1,0 +1,21 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=light saber diagram
+*Date=21:44:09
+*CreatedBy=Fritzing 0.9.8b.2021-08-03.CD-92-0-b3d4fefa
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;129.98;-11.8243;90;Bottom;2.1mm Barrel female
+2;330;THT;47.5693;-12.7768;90;Bottom;330 Ohm resistor
+3;;[THT];62.7447;-12.8045;0;Bottom;Button
+4;;;18.8635;-11.6526;-180;Bottom;LED strip
+5;1k;0603 [SMD];73.4646;-12.6743;90;Top;1KOhm resistor
+6;;;101.413;-13.0943;-90;Bottom;Arduino Nano
