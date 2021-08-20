@@ -1,5 +1,5 @@
 # Arduino Lightsaber
-This project is made to simulate a Light saber from Star Wars by using an Arduino Nano. This repository includes the Arduino code, the circuit and a pcb design
+This project is made to simulate a Light saber from Star Wars by using an Arduino Nano. This repository includes the Arduino code, the diagram and a pcb design
 
 ## Materials
 Materials that I used to make the Light saber:
