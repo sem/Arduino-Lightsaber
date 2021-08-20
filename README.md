@@ -23,24 +23,27 @@ Before you upload the code to your Arduino, you should have the following librar
 At the beginning of the code you will find a section to customize your Light saber:
 ```
 // ------ Settings ------
-#define LED_PIN     8
-#define BUTTON_PIN  5
-#define NUM_LEDS    50
-#define DELAY       8
+#define LED_PIN       8
+#define BUTTON_PIN    5
+#define NUM_LEDS      50
+#define DELAY         1
 
 bool orange = true;
 bool green = true;
 bool red = true;
-bool white = false;
+bool white = true;
 bool purple = true;
 bool yellow = true;
 bool blue = true;
+
+bool flickering = true;
 // --------------------
 ```
-- You can change the pin numbers if you feel like, but there is no need to if you have followed the circuit diagram.
+- You can change the pin numbers if you want to, but there is no need to if you have followed along with the diagram.
 - ```NUM_LEDS``` can be used to change the length of your Light saber
 - ```DELAY``` can be used to change the speed between each transition
-- You can disable any color by simply changing the boolean to false.
+- You can disable any color by changing the boolean to false
+- ```flickering``` can be used to enable or disable flickering
 
 ## How to use
 - With a single press on the button the LED will go on/off
