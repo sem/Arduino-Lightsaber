@@ -8,7 +8,7 @@ Materials that I used to make the Light saber:
 - Push button
 - 330 Ohm resistor
 - Resistor (1KOhm recommended)
-- 4 AA 1.5v batteries
+- 4 AA 1.5v (rechargeable) batteries
 - 4 AA battery holder
 
 ## Circuit diagram
