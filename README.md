@@ -13,11 +13,9 @@ Materials that I used to make the Light saber:
 
 ## Circuit diagram
 - Single LED strip:
-![light saber diagram_bb](https://user-images.githubusercontent.com/78478073/130287816-f7bc7af5-6194-49a9-b75d-72cfc1e3cc56.png)
+<img src="https://user-images.githubusercontent.com/78478073/130287816-f7bc7af5-6194-49a9-b75d-72cfc1e3cc56.png" width="650">
 - Two LED strips:
-![light saber diagram_bb](https://user-images.githubusercontent.com/78478073/130288443-79c8a933-23bd-487e-8c7d-cb987568b16d.png)
-
-<img src="https://user-images.githubusercontent.com/78478073/130288443-79c8a933-23bd-487e-8c7d-cb987568b16d.png" width="600">
+<img src="https://user-images.githubusercontent.com/78478073/130288729-26ece8a6-ba25-4ec6-b52d-f268fbbf7281.png" width="650">
 
 ## Code
 Before you upload the code to your Arduino, you should have the following libraries installed:
