@@ -262,7 +262,7 @@ void doubleclick() {
   }
 } // doubleclick
 
-void set_led(int a, int R, int G, int B){
+void set_led(int a, int R, int G, int B) {
   leds[a] = CRGB(R, G, B);
   delay(DELAY);
   FastLED.show();
