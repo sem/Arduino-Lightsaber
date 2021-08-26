@@ -5,7 +5,7 @@
 #define LED_PIN       8
 #define BUTTON_PIN    5
 #define NUM_LEDS      50
-#define DELAY         1
+#define DELAY         3
 
 bool orange = true;
 bool green = true;
